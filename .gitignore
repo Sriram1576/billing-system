@@ -1,0 +1,12 @@
+# Secrets (encrypted on disk as .env.gpg)
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+*.local
